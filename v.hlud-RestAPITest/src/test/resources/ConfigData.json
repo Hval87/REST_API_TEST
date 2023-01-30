@@ -1,0 +1,33 @@
+{
+  "url": "https://jsonplaceholder.typicode.com",
+  "testGettingUserFromDB": [
+    {
+      "uri": "/posts/"
+    }
+  ],
+  "testIncorrectRequest": [
+    {
+      "uri": "/posts/"
+    }
+  ],
+  "testOfGettingCorrectDataByID": [
+    {
+      "uri": "/users/"
+    }
+  ],
+  "sendPostRequest": [
+    {
+      "uri": "/posts"
+    }
+  ],
+  "gettingUsersList": [
+    {
+      "uri": "/users "
+    }
+  ],
+  "testGettingListOfPostsFromDB": [
+    {
+      "uri": "/posts"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "userId": "1",
+  "testGettingUserFromDB": [
+    {
+      "userPositionForRequest": 99,
+      "expectedStatusCode": 200,
+      "id": 99,
+      "userId": 10
+    }
+  ],
+  "testGettingListOfPostsFromDB": [
+    {
+      "expectedContentType": "application/json; charset=utf-8",
+      "expectedStatusCode": 200
+    }
+  ],
+  "testIncorrectRequest": [
+    {
+      "incorrectUserPosition": 150,
+      "userId": 100,
+      "expectedContentType": "application/json; charset=utf-8",
+      "expectedStatusCode": 404
+    }
+  ],
+  "sendPostRequest()": [
+    {
+      "expectedStatusCode": 201,
+      "id": 1
+    }
+  ],
+  "gettingUsersList": [
+    {
+      "userPositionNumber": 5,
+      "expectedStatusCode": 200
+    }
+  ],
+  "testOfGettingCorrectDataByID": [
+    {
+      "userPositionForRequest": 5,
+      "expectedStatusCode": 200
+    }
+  ]
+}
